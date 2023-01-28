@@ -8,10 +8,11 @@ public class HelloWorld {
 		  System.out.println("The current local time is: " + currentTime);
 
         Greeter greeter = new Greeter();
-        MessageConsumer msgconsumer =new MessageConsumer();
-        // msgconsumer.Consumer();
         MessageProducer msgproducer = new MessageProducer();
         msgproducer.Producer();
+        MessageConsumer msgconsumer =new MessageConsumer();
+        msgconsumer.Consumer();
+        
         System.out.println(greeter.sayHello());
     }
 }
