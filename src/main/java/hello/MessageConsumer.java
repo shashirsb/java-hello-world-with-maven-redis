@@ -44,9 +44,9 @@ public class MessageConsumer {
             
         }
  
-        System.out.println("" + slots.stream()
-        .map(Slots::getVaccine)
-        .collect(Collectors.groupingBy(Set::size, Collectors.counting())));
+        // System.out.println("" + slots.stream()
+        // .map(Slots::getVaccine)
+        // .collect(Collectors.groupingBy(Set::size, Collectors.counting())));
        
           
     }
